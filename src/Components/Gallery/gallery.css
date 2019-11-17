@@ -1,0 +1,33 @@
+#gallery {
+    width: 100%;
+}
+
+.gallery {
+    font-size: 60px;
+}
+
+.pagination {
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.page-item {
+    margin: 0px 5px;
+}
+
+.page-link {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 850px) {
+    #gallery {
+        margin-bottom: 5vh;
+    }
+  }
+
+  @media only screen and (max-width: 430px) {
+    #gallery {
+        margin-bottom: 10vh;
+    }
+  }
+

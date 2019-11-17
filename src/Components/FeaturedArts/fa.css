@@ -1,0 +1,25 @@
+#featured {
+    width: 100%;
+}
+
+.featured {
+    font-size: 60px;
+}
+
+@media (max-width: 358px) {
+    .featured {
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    #featured {
+        margin-bottom: 5vh;
+    }
+  }
+
+  @media only screen and (max-width: 430px) {
+    #featured {
+        margin-bottom: 10vh;
+    }
+  }

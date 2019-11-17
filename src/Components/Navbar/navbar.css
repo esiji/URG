@@ -1,0 +1,12 @@
+.logo-pic {
+    width: 50%;
+    width: 10vh;
+}
+
+.nav-link {
+    text-align: center;
+}
+
+.active {
+    background-color: #c0c0c0 !important;
+}

@@ -1,0 +1,36 @@
+#foot {
+    width: 100%;
+}
+
+.inline {
+    display: inline;
+}
+
+#foot p,#foot div {
+    color:  #F8F8FF;
+}
+
+.about-container {
+    margin: 1.5vh 0;
+    width: 20vw;
+}
+
+.about-container a:hover, .about-container a:active, .about-container a:link, .about-container a:visited {
+    color: rgb(106, 105, 116);
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 850px) {
+    .about-container {
+        margin: 1vh 0;
+        width: 33vw;
+    }
+  }
+
+  @media only screen and (max-width: 630px) {
+    .about-container {
+        margin: .5vh 0;
+        width: 80vw;
+        height: 3vh;
+    }
+  }
