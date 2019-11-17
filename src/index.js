@@ -7,7 +7,7 @@ import {BrowserRouter as Router, Route} from 'react-router-dom';
 
 ReactDOM.render(
     <Router>
-        <Route path="/" component={App} />
+        <Route path="/URG" component={App} />
     </Router>
     , document.getElementById('app')
     )
