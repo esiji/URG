@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import {HashRouter as Router, Route} from 'react-router-dom';
+import {BrowserRouter as Router, Route} from 'react-router-dom';
 
 ReactDOM.render(
-    <Router basename="/">
+    <Router>
         <Route path="/" component={App} />
     </Router>
     , document.getElementById('app')
