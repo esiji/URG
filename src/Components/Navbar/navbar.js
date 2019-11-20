@@ -33,6 +33,10 @@ export class NavBar extends React.Component {
                 $(`#${link}L`).removeClass("active")
             }
         }
+        if(!id) {
+            console.log('lol')
+            $('#homeL').addClass("active")
+        }
     }
 
     handleOnClick(e) {
@@ -45,7 +49,7 @@ export class NavBar extends React.Component {
                 <button className="navbar-toggler" data-toggle="collapse" data-target="#nav-collapse">
                     <span className="navbar-toggler-icon"></span>
                 </button>
-                <Link className="navbar-brand" to="/"><img className="logo-pic" src={require("./urg_logo.png")}/></Link>
+                <Link onClick={this.handleOnClick} className="navbar-brand" to="/"><img className="logo-pic" src={require("./urg_logo.png")}/></Link>
                 <div id="nav-collapse" className="collapse navbar-collapse">
                     <ul className="navbar-nav nav-pills">
                         <li className="nav-item">
