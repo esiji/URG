@@ -5,7 +5,6 @@ const accessKey = process.env.REACT_APP_UNSPLASH_KEY
 
 
 async function unsplash() {
-    console.log(accessKey)
     let image = await fetch(`https://api.unsplash.com//photos/random?client_id=${accessKey}`)
     let jsonImage = await image.json()
     let information = {
